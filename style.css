@@ -13,7 +13,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     .main {
-     margin:20% 5%;
+     /* margin:20% 5%; */
     }
     .content .period{
         width:100%;
