@@ -10,12 +10,33 @@ body {
     margin:0% 5%;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .main {
+     margin:0% 5%;
+    }
+    .content{
+        margin-top: 10%;
+    }
+    .content .period{
+        width:100%;
+     }
+  }
+  
+@media only screen and (min-width: 600px) {
+    .content{
+        margin-top: 5%;
+    }
+    .content .period{
+        width:55%;
+     }
+  }
 .certificate_body{
     background-image: url(images/certBg.png);
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
-    min-height:70vh;
+    /* min-height:70vh; */
     width:80vw;
     border-left: 20px solid #00AEFF;
     padding: 4%;
@@ -42,9 +63,7 @@ body {
     height: 1.5rem;
     margin-right:1%
 }
-.content{
-    margin-top: 5%;
-}
+
 .content h2{
     font-weight: 300;
     margin-bottom: 3%;
@@ -56,7 +75,7 @@ body {
 }
 
 .content .period{
-   width:55%
+   /* width:55% */
 }
 
 .content p{
