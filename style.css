@@ -1,13 +1,14 @@
 body {
     font-family: 'Work Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
+    margin: 0;
   }
 .main{
     display:flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    margin:0% 5%;
+    min-height: 100vh;
+    margin:0% 50px;
 
 }
 
@@ -32,7 +33,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     /* min-height:70vh; */
-    width:80vw;
+    /* width:80vw; */
     border-left: 20px solid #00AEFF;
     padding: 4%;
 }
@@ -41,25 +42,36 @@ body {
    display: flex;
    justify-content: space-between; 
    flex-wrap: wrap;
+   flex-direction: row;
+  align-items: stretch;
+  width: 100%;
 }
 .header a, .header span{
     text-decoration: none;
     color:lightgray;
     font-size: 16px;
+
 }
 .logos{
     display: flex;
-   margin-bottom: 5%;
+   margin-bottom: 10px;
+   flex-wrap: wrap;
+   flex-direction: row;
+  align-items: stretch;
+  /* width: 100%; */
 
 }
 
 .logos img{
     width:5rem;
     height: 1.5rem;
-    margin-right:1%
+}
+.logo div{
+    margin-right:20px
+
 }
 .content{
-    margin-top: 5%;
+    margin-top: 55px;
 }
 .content h2{
     font-weight: 300;
@@ -73,6 +85,10 @@ body {
 
 .content .period{
    /* width:55% */
+   font-family: 'Railway', sans-serif !important;
+   -webkit-font-smoothing: antialiased;
+   font-size: 1rem;
+   line-height: 22px;
 }
 
 .content p{
