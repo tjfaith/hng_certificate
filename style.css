@@ -1,0 +1,78 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+.main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin:0% 5%;
+
+}
+.certificate_body{
+    background-image: url(images/certBg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:70vh;
+    width:80vw;
+    border-left: 20px solid #00AEFF;
+    padding: 4%;
+}
+
+.header{
+   display: flex;
+   justify-content: space-between; 
+   flex-wrap: wrap;
+}
+.header a, .header span{
+    text-decoration: none;
+    color:lightgray;
+    font-size: 16px;
+}
+.logos{
+    display: flex;
+   margin-bottom: 5%;
+
+}
+
+.logos img{
+    width:5rem;
+    height: 1.5rem;
+    margin-right:1%
+}
+.content{
+    margin-top: 5%;
+}
+.content h2{
+    font-weight: 300;
+    margin-bottom: 3%;
+}
+
+.content h1{
+    margin:0;
+    font-size: 3rem;
+}
+
+.content .period{
+   width:55%
+}
+
+.content p{
+    color:#00AEFF;
+    font-weight: 500;
+}
+
+.footer{
+    margin-top: 8%;
+}
+.footer .mark-sign{
+    width:100px;
+    height: 86px;
+    margin:0;
+}
+
+.mark-name h3{
+    margin: 0;
+}
