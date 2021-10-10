@@ -12,7 +12,7 @@ body {
 }
 .certificate_body{
     background-image: url(images/certBg.png);
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
     min-height:70vh;
